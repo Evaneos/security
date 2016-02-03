@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+   bingo:
+       namespace: Evaneos\Security
+       psr4_prefix: Evaneos\Security
+       spec_path: .
+       src_path: src

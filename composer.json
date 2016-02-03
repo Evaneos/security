@@ -1,0 +1,30 @@
+{
+  "name": "evaneos/security",
+  "description": "Security library",
+  "authors": [
+    {
+      "name": "Charles Desneuf",
+      "email": "charles@evaneos.com"
+    },
+    {
+      "name": "Rémi San",
+      "email": "remi@evaneos.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Evaneos\\Security\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "spec\\Evaneos\\Security\\": "spec"
+    }
+  }
+}
